@@ -1,0 +1,54 @@
+a:hover{
+  color:#337ab7;
+  text-decoration: none;
+}
+.navbar-brand{
+  background-image: url(../img/logo.png);
+  width:50px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.side-bar .list-group-item{
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+.side-bar .list-group-item.active{
+  background-color: #333;
+}
+img{
+  display: block;
+  max-width: 100%;
+  border-radius: 3px;
+}
+.news-list-item{
+padding-top: 15px;
+padding-bottom: 15px;
+border-bottom: 1px solid #eee;
+}
+.news-list-item:first-child { /*选择器选中的第一个元素*/
+  padding-top: 0;
+}
+
+
+.news-list-item .title{
+  display: block;
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.title:hover{
+  color: #337ab7;
+}
+.news-list-item .info{
+  color: #888;
+}
+.news-list-item .avatar img{
+  display: inline-block;
+  width:16px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+}
