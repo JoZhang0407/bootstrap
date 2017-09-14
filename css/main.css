@@ -118,3 +118,17 @@ display: block;
 .btn-primary:hover{
   background-color: #0e2438;
 }
+#toggle-checkbox:checked ~ div {
+  display: block !important;
+}
+#toggle-label{
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  color: #666;
+  display: none;
+}
+#toggle-label:hover {
+  color: #333;
+}
